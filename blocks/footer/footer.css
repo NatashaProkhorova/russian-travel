@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  /*min-height: 350px;
+  padding: 60px 0 40px;*/
+  justify-content: space-between;
+  margin: 0;
+  max-width: 1184px;
+  padding: 92px 0 24px;
+}
+
+@media screen and (max-width: 1140px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .footer {
+    max-width: 720px;
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
+    max-width: fit-content;
+    flex-direction: column;
+    padding-top: 64px;
+  }
+}
+
