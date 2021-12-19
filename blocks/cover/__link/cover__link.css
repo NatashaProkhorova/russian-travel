@@ -4,6 +4,7 @@
   text-decoration: none;
   box-sizing: border-box;
   background-image: url(../../../images/cover.png);
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@
 
 .cover__link::before {
   content: "";
-  background: #2a3c3f;
+  background-color: #2a2c2f;
   opacity: 0.3;
   position: absolute;
   top: 0;
