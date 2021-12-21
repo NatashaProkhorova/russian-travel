@@ -5,34 +5,30 @@
   box-sizing: border-box;
   background-image: url(../../../images/cover.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 20px;
   z-index: 1;
-
-  /*background-repeat: no-repeat;
-  background-position: center;*/
-
-  /*max-width: 100%;*/
-  /*margin: 0 auto;
-  padding: 0;*/
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  background-repeat: no-repeat;
 }
 
 .cover__link::before {
   content: "";
   background-color: #2a2c2f;
+  width: 100%;
+  min-height: 100%;
   opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
   z-index: -1;
-  transition: opacity ease-in-out 0.3s;
+  transition: opacity ease-in-out 0.5s;
 }
 
 .cover__link:hover::before {
@@ -43,6 +39,7 @@
 @media screen and (max-width: 1140px) {
   .cover__link {
     min-height: 640px;
+    background-size: cover;
   }
 }
 
@@ -57,4 +54,3 @@
     min-height: 200px;
   }
 }
-

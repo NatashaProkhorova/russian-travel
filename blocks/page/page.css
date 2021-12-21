@@ -8,20 +8,22 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 28px 48px 24px;
+  /*padding: 28px 48px 24px;*/
+  padding: 28px 0 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
+/*
 @media screen and (max-width: 984px) {
   .page {
     padding: 28px 24px 24px;
   }
-}
+}*/
 
 @media screen and (max-width: 568px) {
   .page {
-    padding: 16px 16px 24px;
+    padding-top: 16px;
   }
 }

@@ -6,6 +6,7 @@
   line-height: 100px;
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 /*@media screen and (max-width: 670px) {
@@ -19,7 +20,6 @@
 
 @media screen and (max-width: 650px) {
   .lead__title {
-    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }

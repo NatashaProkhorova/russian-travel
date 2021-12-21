@@ -3,13 +3,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 56px 0 0;
+  padding: 56px 48px 0;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1140px) {
   .lead {
-    padding: 48px 0 0;
+    padding-top: 48px;
   }
 }
 
+@media screen and (max-width: 984px) {
+  .lead {
+    padding: 48px 24px 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead {
+    padding: 48px 16px 0;
+  }
+}
